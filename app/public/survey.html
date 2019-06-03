@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- Latest compiled and minified CSS & JS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+    <title>FriendFinder Survey</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>FriendFinder Survey</h1>
+        <h3>Please complete the following and then click the Submit button.</h3>
+        <br>
+        <!-- Form for entering name, image link and answers to 10 questions. -->
+        <form>
+            <div class="form-group">
+                <label for="exampleFormControlInput1">Name (Required)</label>
+                <input type="text" class="form-control" id="name" placeholder="Your Name">
+            </div>
+
+            <div class="form-group">
+                <label for="exampleFormControlInput1">Link to Your Photo Image</label>
+                <input type="text" class="form-control" id="image-link">
+            </div>
+
+            <div class="form-group">
+                <label for="exampleFormControlSelect1">#1: Peanut butter is good on anything.</label>
+                <select class="form-control" id="q1">
+                    <option value=""></option>
+                    <option value="1">Totally Disagree!</option>
+                    <option value="2">Disagree</option>
+                    <option value="3">Neutral</option>
+                    <option value="4">Agree</option>
+                    <option value="5">Totally Agree!</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="exampleFormControlSelect1">#2: Rainy days depress me. </label>
+                <select class="form-control" id="q2">
+                    <option value=""></option>
+                    <option value="1">Totally Disagree!</option>
+                    <option value="2">Disagree</option>
+                    <option value="3">Neutral</option>
+                    <option value="4">Agree</option>
+                    <option value="5">Totally Agree!</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="exampleFormControlSelect1">#3: Nurture the roots and the plant will grow.</label>
+                <select class="form-control" id="q3">
+                    <option value=""></option>
+                    <option value="1">Totally Disagree!</option>
+                    <option value="2">Disagree</option>
+                    <option value="3">Neutral</option>
+                    <option value="4">Agree</option>
+                    <option value="5">Totally Agree!</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="exampleFormControlSelect1">#4: The glass is half empty.</label>
+                <select class="form-control" id="q4">
+                    <option value=""></option>
+                    <option value="1">Totally Disagree!</option>
+                    <option value="2">Disagree</option>
+                    <option value="3">Neutral</option>
+                    <option value="4">Agree</option>
+                    <option value="5">Totally Agree!</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="exampleFormControlSelect1">#5: Coding is fun.</label>
+                <select class="form-control" id="q5">
+                    <option value=""></option>
+                    <option value="1">Totally Disagree!</option>
+                    <option value="2">Disagree</option>
+                    <option value="3">Neutral</option>
+                    <option value="4">Agree</option>
+                    <option value="5">Totally Agree!</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="exampleFormControlSelect1">#6: I'd like to try climbing Mount Everest.</label>
+                <select class="form-control" id="q6">
+                    <option value=""></option>
+                    <option value="1">Totally Disagree!</option>
+                    <option value="2">Disagree</option>
+                    <option value="3">Neutral</option>
+                    <option value="4">Agree</option>
+                    <option value="5">Totally Agree!</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="exampleFormControlSelect1">#7: Bigfoot does exist.</label>
+                <select class="form-control" id="q7">
+                    <option value=""></option>
+                    <option value="1">Totally Disagree!</option>
+                    <option value="2">Disagree</option>
+                    <option value="3">Neutral</option>
+                    <option value="4">Agree</option>
+                    <option value="5">Totally Agree!</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="exampleFormControlSelect1">#8: Everyone's a winner. </label>
+                <select class="form-control" id="q8">
+                    <option value=""></option>
+                    <option value="1">Totally Disagree!</option>
+                    <option value="2">Disagree</option>
+                    <option value="3">Neutral</option>
+                    <option value="4">Agree</option>
+                    <option value="5">Totally Agree!</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="exampleFormControlSelect1">#9: Talent is more important than hard work.</label>
+                <select class="form-control" id="q9">
+                    <option value=""></option>
+                    <option value="1">Totally Disagree!</option>
+                    <option value="2">Disagree</option>
+                    <option value="3">Neutral</option>
+                    <option value="4">Agree</option>
+                    <option value="5">Totally Agree!</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="exampleFormControlSelect1">#10: Work hard, play harder. </label>
+                <select class="form-control" id="q10">
+                    <option value=""></option>
+                    <option value="1">Totally Disagree!</option>
+                    <option value="2">Disagree</option>
+                    <option value="3">Neutral</option>
+                    <option value="4">Agree</option>
+                    <option value="5">Totally Agree!</option>
+                </select>
+            </div>
+
+            <!-- Submit Button -->
+            <button id="submit-button" type="button" class="btn btn-primary btn-sm">
+                <h3>Click to Submit</h3>
+            </button>
+            <hr>
+
+            <a href="/api/friends">API Friends List</a>
+
+            <!-- Modal to display the friend suggestion.  Toggled -->
+            <div id="result-modal" class="modal" tabindex="-1" role="dialog">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title">Here's Your Friend Suggestion!</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <h2 id="friend-name"></h2>
+                            <img id="friend-image">
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+
+    <script type="text/javascript">
+        // Question: What does this code do?
+        $("#submit-button").on("click", function (event) {
+            // alert("I've been clicked");
+            // console.log("I've been clicked");
+
+            event.preventDefault();
+
+            var newFriend = {
+                name: $("#name").val().trim(),
+                photo: $("#image-link").val().trim(),
+                scores: [
+                    $("#q1").val().trim(),
+                    $("#q2").val().trim(),
+                    $("#q3").val().trim(),
+                    $("#q4").val().trim(),
+                    $("#q5").val().trim(),
+                    $("#q6").val().trim(),
+                    $("#q7").val().trim(),
+                    $("#q8").val().trim(),
+                    $("#q9").val().trim(),
+                    $("#q10").val().trim(),
+                ]
+            };
+
+            // console.log(newFriend);
+
+            // Post the new entry into API and display via toggled modal
+            $.post("/api/friends", newFriend, function (data) {
+
+                // Display friend suggestion in the modal.
+                $("#friend-name").text(data.name);
+                $("#friend-image").attr({ "src": data.photo, "width": 300 });
+                $("#result-modal").modal("toggle");
+
+            });
+        });
+    </script>
+
+</body>
+
+</html>
